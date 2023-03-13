@@ -1,0 +1,7 @@
+/_DRAFTS/
+/.venv/
+/.vscode/
+
+*.json
+
+config.ini
