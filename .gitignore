@@ -3,5 +3,6 @@
 /.vscode/
 
 *.json
+*.jpg
 
 config.ini
