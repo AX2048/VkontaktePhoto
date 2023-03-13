@@ -162,7 +162,7 @@ def main():
 
     view_albums()
     get_photo_list()
-    #get_photo_img()
+    get_photo_img()
     print('\nMAIN END\n')
     
 

@@ -8,6 +8,8 @@
 
 Подготовка: Создать `.venv`: `python3 -m venv .venv` и установить модули `python -m pip install -r requirements.txt`.
 
+Также рекомендую самостоятельно создать диры до запуска скрипта. 
+
 Для работы скрипта нужно создать файл `config.ini` со следующим содержанием:
 ```
 [auth]
@@ -26,6 +28,8 @@ JSON_FOLDER = json/
 2. Получаем `ид приложения ВК`: для этого нужно создать приложение в ВК.
 
 3. Получаем `токен`: для этого нужно перейти по ссылке https://oauth.vk.com/authorize?client_id=5490057&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.52 предварительно заменив `5490057` на `ид приложения ВК`
+
+Фото сохраняет функция `get_photo_img()`
 
 В дире `JSON_FOLDER` пожно найти ответ на запрос `getAlbums` и список ссылок на фото в разном разрешении.
 
