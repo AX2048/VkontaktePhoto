@@ -1,4 +1,4 @@
-![](vk_photo_title.png)
+![](vk_photo_title_e.png)
 ---
 ## VK_Photo_API
 
